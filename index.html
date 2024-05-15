@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=M+PLUS+1:wght@600;700&family=Noto+Sans+JP:wght@100&family=Philosopher&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>SUGOI</title>
+</head>
+<body>
+  <!--ヘッダーコンテンツ-->
+  <section class="header">
+    <div class="header__wrapper">
+      <a href="index.html"><img src="logo.png" alt="logo" class="logo"></a>
+      <nav class="nav">
+        <ul class="header__head">
+          <li><a href="#" class="header__link">About Us</a></li>
+          <li><a href="#" class="header__link">Company</a></li>
+          <li><a href="#" class="header__link">Service</a></li>
+          <li><a href="#" class="header__link">News</a></li>
+        </ul>
+     </nav>
+     <div class="openbtn1"><span></span><span></span><span></span></div>
+    </div>
+  </section>
+
+  <nav class="hamburger__menu">
+    <ul class="hamburger__list">
+      <li><a href="#" class="hamburger__content">About Us</a></li>
+      <li><a href="#" class="hamburger__content">Company</a></li>
+      <li><a href="#" class="hamburger__content">Service</a></li>
+      <li><a href="#" class="hamburger__content">News</a></li>
+    </ul>
+ </nav>
+ <div class="black-bg" id="js-black-bg"></div>
+
+  <!--メインビジュアル-->
+  <div class="container">
+    <div class="main-visual"></div>
+    <div class="main-visual__on-text">
+      <p class="main-visual__title">
+        <p class="main-visual__eng">We make</p>
+        <p class="main-visual__eng">SUGOI service</p>
+      </p>
+      <p class="main-visual__jp">未来につなぐ、すごいを作る</p>
+    </div>
+    <div class="banner">
+      <div class="banner__contents flex">
+        <h1 class="banner__title">NEWS</h1>
+        <p class="banner__date">2020.12.10</p>
+        <p class="banner__news--contents">パートナー企業の株式会社〇〇と連携し、すごいサービスをリリースいたしました</p>
+        <p class="banner__news--SP-contents">READ MORE</p>
+        <span class="arrow"></span>
+      </div>
+    </div>
+    <img src="SUGOI.png" class="sugoi">
+    <img src="STORY.png" class="story">
+  </div>
+
+  <!--メインコンテンツ-->
+  <section class="wrapper flex about">
+    <div class="about-us__contents">
+      <h1 class="title order1">About Us</h1>
+      <img src="about-us.png" class="about-us__sp-visual">
+      <p class="about-us__description order3">わたしたちはWeb制作に携わる方の業務効率化を図るサービスを作っています。お客様に「これはすごい」と言っていただけるような製品づくりを目指しています。</p>
+      <button class="button order4">詳しく見る</button>
+    </div>
+    <div class="visual order2">
+      <img src="about-us.png" class="about-us__main-visual">
+    </div>
+  </section>
+
+  <!--メッセージコンテンツ-->
+  <section class="wrapper flex message">
+    <div class="visual order2">
+      <img src="message.png" class="message__main-visual">
+    </div>
+    <div class="message__contents">
+      <h1 class="title">Message</h1>
+      <img src="message.png" class="message__sp-visual">
+      <p class="message__description order3">進行やデザインから開発・リリースまで多岐にわたる工程があるWeb制作になにかできることはないかと会社を立ち上げてから10年。これまでの歩みととこれからの展望をご紹介します。</p>
+      <button class="button order4">詳しく見る</button>
+    </div>
+  </section>
+
+  <!--サービスコンテンツ-->
+  <section class="service__wrapper">
+    <div class="service-container">
+      <h1 class="service__title">Service</h1>
+      <div class="service flex">
+        <div class="service__contents">
+          <p class="service__contents--tag">New</p>
+          <img src="service1.png">
+          <h2>スケジュール管理用<br>すごいカレンダー</h2>
+          <p class="service__contents--description">自分のスケジュールはもちろん、さまざまな案件のマイルストーンやメンバーのスケジュールの把握が可能なカレンダーアプリです。</p>
+        </div>
+        <div class="service__contents">
+          <img src="service2.png">
+          <h2>業務効率アップ用<br>すごいソフト</h2>
+          <p class="service__contents--description">自分がよく使っているアプリの順番で並べてくれるすごいソフトです。ダークモードとの切り替えも可能です。</p>
+        </div>
+        <div class="service__contents">
+          <img src="service3.png">
+          <h2>タブレット専用の<br>すごいアプリ</h2>
+          <p class="service__contents--description">メンバーとのコミュニケーションに活用できるタブレット専用アプリです。社内が活発になるすごいアプリです。</p>
+        </div>
+      </div>
+      <button class="contents__button">サービス一覧</button>
+    </div>
+  </section>
+
+  <!--ニュースコンテンツ-->
+  <section class="news">
+    <div class="news__container">
+      <div class="news__title">News</div>
+      <div class="news__wrapper flex">
+        <div class="flex">
+          <p class="news__date">2020.12.10</p>
+          <p class="news__release">パートナー企業の株式会社〇〇と連携し、すごいサービスをリリースいたしました</p>
+        </div>
+        <span class="news__arrow"></span>
+      </div>
+      <div class="news__wrapper flex">
+        <div class="flex">
+          <p  class="news__date">2020.12.03</p>
+          <p class="news__release">子会社（〇〇〇〇株式会社）吸収合併に関するお知らせ</p>
+        </div>
+        <span class="news__arrow"></span>
+      </div>
+      <div class="news__wrapper flex">
+        <div class="flex">
+          <p class="news__date">2020.12.03</p>
+          <p class="news__release">プライバシーポリシーを改定いたしました</p>
+        </div>
+        <span class="news__arrow flex"></span>
+      </div>
+    </div>
+    <button class="contents__button">ニュース一覧</button>
+  </section>
+
+  <!--その他コンテンツ-->
+  <section class="others">
+    <div class="others__wrapper flex">
+      <div class="others__contents">
+       <img src="others_1.png" alt="contact_us_img" class="others__contents--img">
+        <p>Contact Us</p>
+      </div>
+      <div class="others__contents">
+       <img src="others_2.png" alt="recruit_img" class="others__contents--img">
+        <p>Recruit</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer__wrapper">
+      <a href="index.html"><img src="arrow.png" alt="トップへ戻る" class="footer__arrow"></a>
+      <div class="footer__contents flex">
+        <a href="index.html"><img src="logo_white.png" alt="logo" class="logo_white"></a>
+        <div class="footer__right-link big">
+          <a href="#" class="footer__right-link--item">About Us</a>
+          <a href="#" class="footer__right-link--item">Company</a>
+          <a href="#" class="footer__right-link--item">Service</a>
+          <a href="#" class="footer__right-link--item">News</a>
+        </div>
+      </div>
+
+      <div class="footer__contents flex">
+        <div class="footer__link">
+          <a href="#" class="privacy__policy">プライバシーポリシー</a>
+          <a href="#" class="info__security">情報セキュリティ方針</a>
+        </div>
+        <div class="footer__right-link small">
+          <a href="#" class="footer__right-link--item right__item">Contact Us</a>
+          <a href="#" class="footer__right-link--item right__item">Recruit</a>
+        </div>
+      </div>
+    </div>
+    <p class="copy-right">&copy;2020 omsss22 All rights reserved.</p>
+  </section>
+
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
