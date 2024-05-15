@@ -73,7 +73,7 @@ h1 {
   position: relative;
 }
 .main-visual {
-  background-image: url(img/main.jpg);
+  background-image: url(main.jpg);
   max-width: 100%;
   width: 100vw;
   background-size: cover;
